@@ -26,7 +26,7 @@ export default function Hero({ t }) {
       <div className="container hero__content">
         <motion.div className="hero__photo-wrapper" {...fadeUp(0)}>
           <div className="hero__photo">
-            <img src="/photo.jpg" alt="Alexandre Marchese" />
+            <img src="/portfoliophoto.jpeg" alt="Alexandre Marchese" />
           </div>
         </motion.div>
 
