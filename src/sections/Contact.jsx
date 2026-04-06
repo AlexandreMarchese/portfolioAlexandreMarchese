@@ -20,14 +20,14 @@ export default function Contact({ t }) {
       // Remplace SERVICE_ID, TEMPLATE_ID, PUBLIC_KEY par tes identifiants EmailJS
       const emailjs = await import("emailjs-com");
       await emailjs.default.send(
-        "SERVICE_ID",
-        "TEMPLATE_ID",
+        "service_jpin4kq",
+        "template_4ps1ffi",
         {
           from_name: form.name,
           from_email: form.email,
           message: form.message,
         },
-        "PUBLIC_KEY"
+        "rpXJNtoFEt9Pe3F6d"
       );
       setStatus("success");
       setForm({ name: "", email: "", message: "" });

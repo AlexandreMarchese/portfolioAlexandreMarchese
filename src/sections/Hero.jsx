@@ -66,7 +66,7 @@ export default function Hero({ t }) {
             <GithubIcon />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/alexandre-marchese-829624175b"
             target="_blank"
             rel="noopener noreferrer"
             className="hero__social-link"

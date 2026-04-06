@@ -43,31 +43,32 @@ export default function About({ t }) {
             transition={{ duration: 0.7, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           >
             <div className="about__card">
+              <span className="about__card-icon">💻</span>
+              <div>
+                <strong>Concepteur Développeur d'Applications</strong>
+                <p>Titre professionnel niveau 6 (Bac+3/4) — React, Node.js, JavaScript</p>
+              </div>
+            </div>
+            <div className="about__card">
               <span className="about__card-icon">🏦</span>
               <div>
-                <strong>5 ans</strong>
-                <p>Secteur bancaire (agence & back-office) gestionnaire en assurances</p>
+                <strong>5 ans en secteur bancaire</strong>
+                <p>5 ans (agence & back-office) gestionnaire en assurances</p>
               </div>
             </div>
             <div className="about__card">
               <span className="about__card-icon">🏛️</span>
               <div>
-                <strong>Nîmes Métropole</strong>
-                <p>Chargé d'implantation entreprise (Direction du Développement Économique)</p>
+                <strong>Direction du Développement Économique Nîmes Métropole</strong>
+                <p>2 ans — Chargé d'implantation entreprise</p>
               </div>
             </div>
             <div className="about__card">
               <span className="about__card-icon">🎓</span>
               <div>
-                <strong>Master</strong>
-                <p>Management International des Territoires & Entreprises</p>
-              </div>
-            </div>
-            <div className="about__card">
-              <span className="about__card-icon">💻</span>
-              <div>
-                <strong>Formation</strong>
-                <p>Développement Web (React, Node, JavaScript)</p>
+                <strong>Diplômes</strong>
+                <p>Master Management International des Territoires et des Entreprises (spécialité statistiques)</p>
+                <p>Licence Administration Économique et Sociale</p>
               </div>
             </div>
           </motion.div>
